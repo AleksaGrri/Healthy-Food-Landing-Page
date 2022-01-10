@@ -1,0 +1,376 @@
+@font-face {
+    font-family: roboto-regular ;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-display: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto-medium ;
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-display: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Philosopher-Bold ;
+    src: url(../fonts/Philosopher-Bold.ttf);
+    font-display: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Philosopher-Regular ;
+    src: url(../fonts/Philosopher-Regular.ttf);
+    font-display: auto;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: roboto-medium;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 48.83px;
+    line-height: 58px;
+    color: #150C01;
+    font-family: Philosopher-Bold ;
+    margin: 0 0 42px 0;
+}
+
+h2{
+    font-size: 31.25px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #150C01;
+    font-family: Philosopher-Bold ;
+}
+
+h3{
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+    font-family: Philosopher-Bold ;
+    margin: 33px 0 15px;
+}
+
+h4{
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: Philosopher-Bold ;
+    margin: 0;
+}
+
+.primary-btn{
+    background-color: #DC780B;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: roboto-regular ;
+    padding: 14px 30px;
+}
+
+.primary-btn:hover{
+    background-color: #FFFFFF;
+    color: #DC780B;
+    cursor: pointer;
+    border: 1px solid #DC780B;
+}
+
+.secondary-btn{
+    border: 1.5px solid rgba(220, 120, 11,  .1);
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DC780B;
+    background-color: #FFFFFF;
+}
+
+.secondary-btn:hover{
+    border: none;
+    background-color: #DC780B;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.zero{
+   margin: 30px 0 69px 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .menu{
+    display: flex;
+    align-items: center;
+}
+
+.container .menu ul{
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    padding-left: 35px;
+}
+
+.container .menu ul li{
+    padding-right: 40px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #150C01;
+    opacity: 0.6;
+    transition: .3s;
+}
+
+.container .menu ul li:hover{
+    color: #DC780B;
+    cursor: pointer;
+}
+
+.zero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zero-content .zero-content-info p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7; 
+    margin: 0 0 50px 0;
+    font-family: roboto-medium;
+}
+
+.zero-content-info-btn .primary-btn{
+    padding: 20px 40px;
+    font-family: roboto-medium;
+    margin-right: 30px;
+}
+
+.features{
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.features p{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+    margin: 0;
+}
+
+.features h2{
+    margin: 7px 0 44px;
+}
+
+.features-descr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-descr-info{
+    width: 30%;
+}
+
+.ellipse-quality{
+    width: 88px;
+    height: 88px;
+    margin: 0 auto;
+    background-color: rgba(143, 166, 50, .1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellipse-delivery{
+    width: 88px;
+    height: 88px;
+    margin: 0 auto;
+    background-color: rgba(230, 77, 46, 0.08);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellipse-taste{
+    width: 88px;
+    height: 88px;
+    margin: 0 auto;
+    background-color: rgba(220, 120, 11, .1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-descr .features-descr-info p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7; 
+    letter-spacing: normal;
+    text-transform: none;
+    font-family: roboto-regular ;
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu h2{
+    margin: 9px 0 25px;
+}
+
+.menu .container > p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+    margin-bottom: 60px;
+}
+
+.menu .container .menu-title {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+}
+
+.menu .container .menu-card{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px;
+    width: 360px;
+    text-align: start;
+}
+
+.menu-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.menu-card-info{
+    padding: 21px 25px 25px;
+}
+
+.menu-card-info h3{
+    margin: 0;
+}
+
+.menu-card-info .menu-card-name div{
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+    font-family: Philosopher-Bold ;
+}
+
+.menu-card-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-card-info p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+    margin: 20px 0;
+}
+
+.menu-card-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-card-btn button{
+    background: #DC780B;
+    border-radius: 5px;
+    border: none;
+    padding: 11px 12px;
+}
+
+.rating-result {
+	width: 50%;
+    text-align: end;
+}
+
+.rating-result span {
+	padding: 0;
+	font-size: 24px;
+	line-height: 1;
+	color: #EDEDED;
+}
+
+.rating-result > span:before {
+	content: '★';
+}
+
+.rating-result > span.active {
+	color: #DC780B;
+}
+
+.menu .container .secondary-btn{
+    padding: 11px 30px 12px;
+    margin: 50px 0 103px;
+}
+
+footer{
+    background-color: #252525;
+}
+
+footer .container{
+    padding: 137px 0 104px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-info ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 26px 0 0 0;
+}
+
+footer .footer-info ul li{
+    padding-bottom: 17px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-family: roboto-regular ;
+}
+
+footer .footer-info ul li:last-child{
+    padding-bottom: 0;
+}
+
+.footer-info .footer-info-logo{
+    margin-top: 25px;
+}
+
+.footer-info .footer-info-logo img{
+    padding-right: 10px;
+}
